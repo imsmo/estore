@@ -1,0 +1,149 @@
+
+ <!-- Top Bar Start -->
+ <div class="topbar">
+
+    <!-- LOGO -->
+    <div class="topbar-left">
+        <a href="<%=host%>/admin/dashboard" class="logo"><span>est<span>ore</span></span><i class="mdi mdi-layers"></i></a>
+    </div>
+
+    <!-- Button mobile view to collapse sidebar menu -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+
+            <div class="clearfix">
+                <!-- Navbar-left -->
+                 <ul class="nav navbar-left">
+                    <li>
+                        <button class="button-menu-mobile open-left waves-effect">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Right(Notification) -->
+                <ul class="nav navbar-right">
+                    <li>
+                        <a href="<%=host%>/admin/notification" class="right-menu-item dropdown-toggle" >
+                            <i class="mdi mdi-bell"></i>
+                            <!-- <span class="badge up badge-success badge-pill">4</span> -->
+                        </a>
+                    </li>
+                    <li class="dropdown user-box">
+                    <a href="" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
+                        <img src="<%= host %>/assets/images/users/avatar-1.jpg" alt="user-img" class="rounded-circle user-img">
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
+                        <li>
+                            <h5>Hi, John</h5>
+                        </li>
+                        <li><a href="<%=host%>/admin/profile" class="dropdown-item"><i class="ti-user m-r-5"></i> Profile</a></li>
+                        <li><a href="<%=host%>/admin/index" class="dropdown-item"><i class="ti-power-off m-r-5"></i> Logout</a></li>
+                    </ul>
+                </li>
+
+                </ul> <!-- end navbar-right -->
+            </div>
+
+        </div><!-- end container -->
+    </div><!-- end navbar -->
+</div>
+<!-- Top Bar End -->
+
+
+<!-- ========== Left Sidebar Start ========== -->
+<div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="<%=host%>/admin/dashboard" class="waves-effect"><i class="mdi mdi-view-dashboard"></i><span> Dashboard  </span></a>
+                </li>
+                <li>
+                    <a href="<%=host%>/admin/manage-user" class="waves-effect"><i class="fa fa-user"></i><span>Manage User </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/manage-celebrity" class="waves-effect"><i class="fa fa-users"></i><span> Manage Celebrity </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/manage-brand" class="waves-effect"><i class="fab fa-wordpress"></i><span> Manage Brand </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/manage-product" class="waves-effect"><i class="fab fa-product-hunt"></i><span> Manage Product </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/manage-order" class="waves-effect"><i class="fas fa-shopping-cart"></i><span> Manage Order </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/advertisement" class="waves-effect"><i class='fas fa-ad'></i><span> Advertisement  </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/earnings" class="waves-effect"><i class="fas fa-euro-sign"></i><span> Earnings  </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/faq" class="waves-effect"><i class="fas fa-question-circle"></i><span> FAQ  </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/about-us" class="waves-effect"><i class="mdi mdi-view-dashboard"></i><span> About Us  </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/contact-us" class="waves-effect"><i class="fas fa-info-circle"></i><span> Contact us  </span></a>
+                </li>
+
+                <li>
+                    <a href="<%=host%>/admin/notification" class="waves-effect"><i class="fas fa-bell"></i><span> Notification  </span></a>
+                </li>
+                <li>     <a href="<%=host%>/admin/index" class="waves-effect"><i
+                class="fas fa-sign-out-alt"></i><span> Logout  </span></a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- Sidebar -->
+        <div class="clearfix"></div>
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
+
+
+<!-- App css -->
+<link href="<%=host%>/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css" rel="stylesheet" />
+<link href="<%=host%>/plugins/multiselect/css/multi-select.css"  rel="stylesheet" type="text/css" />
+<link href="<%=host%>/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+<link href="<%=host%>/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+<link href="<%=host%>/plugins/bootstrap-touchspin/css/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+
+ <link rel="stylesheet" type="text/css" href="<%=host%>/plugins/dropify/css/dropify.css" />
+<!-- App css -->
+<link rel="stylesheet" type="text/css" href="<%=host%>/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="<%=host%>/assets/css/icons.css" />
+<link rel="stylesheet" type="text/css" href="<%=host%>/assets/css/style.css" />
+
+<link rel="stylesheet" href="<%=host%>/plugins/switchery/switchery.min.css">
+
+<!-- Plugin Css-->
+<link rel="stylesheet" href="<%=host%>/plugins/magnific-popup/css/magnific-popup.css" />
+<link rel="stylesheet" href="<%=host%>/plugins/datatables/dataTables.bootstrap4.min.css" />
+<link rel="stylesheet" href="<%=host%>/plugins/datatables/responsive.bootstrap4.min.css" />
+
+<!-- <link rel="stylesheet" href="plugins/switchery/switchery.min.css">
+<link href="plugins/sweet-alert2/sweetalert2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" /> -->
+
+
+<link href="<%=host%>/plugins/responsive-table/css/rwd-table.min.css" rel="stylesheet" type="text/css" media="screen">
